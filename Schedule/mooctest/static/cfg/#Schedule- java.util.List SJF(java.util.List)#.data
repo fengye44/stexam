@@ -1,0 +1,290 @@
+[
+  {
+    "codes": "     ",
+    "blocks": []
+  },
+  {
+    "codes": "                 ",
+    "blocks": []
+  },
+  {
+    "codes": "            ",
+    "blocks": []
+  },
+  {
+    "codes": "     ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic List<Double> SJF(List<Work> works) { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tList<Double> lst = new ArrayList<Double>(); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tdouble avgCircleTime = 0; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tdouble avgCircleTimeWP = 0; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tList<Work> ins = new ArrayList<Work>(); ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tint i = 0; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tint counter = 0;                    ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\t                                ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\twhile (counter < works.size()) { ",
+    "blocks": [
+      17,
+      1,
+      2
+    ]
+  },
+  {
+    "codes": "\t\t\t                                 ",
+    "blocks": [17]
+  },
+  {
+    "codes": "\t\t\tfor (int j = 0; j < works.size(); j++) { ",
+    "blocks": [
+      17,
+      3,
+      4,
+      5,
+      12
+    ]
+  },
+  {
+    "codes": "\t\t\t\tif (works.get(j).isIn()) ",
+    "blocks": [
+      17,
+      6,
+      7,
+      12
+    ]
+  },
+  {
+    "codes": "\t\t\t\t\tcontinue; ",
+    "blocks": [
+      17,
+      8,
+      12
+    ]
+  },
+  {
+    "codes": "\t\t\t\tif (works.get(j).getArrivalTime() <= i) { ",
+    "blocks": [
+      17,
+      9,
+      10,
+      12
+    ]
+  },
+  {
+    "codes": "\t\t\t\t\tins.add(works.get(j)); ",
+    "blocks": [
+      17,
+      11,
+      12
+    ]
+  },
+  {
+    "codes": "\t\t\t\t} ",
+    "blocks": [
+      17,
+      12
+    ]
+  },
+  {
+    "codes": "\t\t\t} ",
+    "blocks": [
+      17,
+      12
+    ]
+  },
+  {
+    "codes": "\t\t\tif (ins.isEmpty()) { ",
+    "blocks": [
+      17,
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "codes": "\t\t\t\ti++; ",
+    "blocks": [
+      17,
+      15
+    ]
+  },
+  {
+    "codes": "\t\t\t} else { ",
+    "blocks": [
+      17,
+      15
+    ]
+  },
+  {
+    "codes": "\t\t\t\tins = sortByServiceTime(ins); ",
+    "blocks": [
+      17,
+      16,
+      15
+    ]
+  },
+  {
+    "codes": "\t\t\t\t                                             ",
+    "blocks": [
+      17,
+      15
+    ]
+  },
+  {
+    "codes": "\t\t\t\tWork now = ins.get(0); ",
+    "blocks": [
+      17,
+      16,
+      15
+    ]
+  },
+  {
+    "codes": "\t\t\t\tnow.setBeginTime(i); ",
+    "blocks": [
+      17,
+      16,
+      15
+    ]
+  },
+  {
+    "codes": "\t\t\t\tnow.setEndTime(now.getBeginTime() + now.getServiceTime()); ",
+    "blocks": [
+      17,
+      16,
+      15
+    ]
+  },
+  {
+    "codes": "\t\t\t\tnow.setIn();                ",
+    "blocks": [
+      17,
+      16,
+      15
+    ]
+  },
+  {
+    "codes": "\t\t\t\tcounter++; ",
+    "blocks": [
+      17,
+      16,
+      15
+    ]
+  },
+  {
+    "codes": "\t\t\t\ti = now.getEndTime();              ",
+    "blocks": [
+      17,
+      16,
+      15
+    ]
+  },
+  {
+    "codes": "\t\t\t\tins.clear();                  ",
+    "blocks": [
+      17,
+      16,
+      15
+    ]
+  },
+  {
+    "codes": "\t\t\t} ",
+    "blocks": [
+      17,
+      15
+    ]
+  },
+  {
+    "codes": " ",
+    "blocks": [17]
+  },
+  {
+    "codes": "\t\t} ",
+    "blocks": [17]
+  },
+  {
+    "codes": "\t\tfor (int m = 0; m < works.size(); m++) { ",
+    "blocks": [
+      19,
+      18,
+      21,
+      20
+    ]
+  },
+  {
+    "codes": "\t\t\tavgCircleTime += works.get(m).getCircleTime(); ",
+    "blocks": [21]
+  },
+  {
+    "codes": "\t\t\tavgCircleTimeWP += works.get(m).getCircleWPTime(); ",
+    "blocks": [21]
+  },
+  {
+    "codes": "\t\t} ",
+    "blocks": [21]
+  },
+  {
+    "codes": "\t\tavgCircleTime = avgCircleTime / works.size(); ",
+    "blocks": [22]
+  },
+  {
+    "codes": "\t\tavgCircleTimeWP = avgCircleTimeWP / works.size(); ",
+    "blocks": [22]
+  },
+  {
+    "codes": "\t\tlst.add(avgCircleTime); ",
+    "blocks": [22]
+  },
+  {
+    "codes": "\t\tlst.add(avgCircleTimeWP); ",
+    "blocks": [22]
+  },
+  {
+    "codes": "\t\treturn lst; ",
+    "blocks": [22]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": " ",
+    "blocks": []
+  },
+  {
+    "codes": "\t    ",
+    "blocks": []
+  },
+  {
+    "codes": "                                          ",
+    "blocks": []
+  },
+  {
+    "codes": "              ",
+    "blocks": []
+  }
+]

@@ -1,0 +1,18 @@
+{"0": {
+  "instructions": [
+    {"temp$0 = this.<Work: boolean in>": {
+      "eline": 25,
+      "epos": 13,
+      "spos": 10,
+      "sline": 25
+    }},
+    {"return temp$0": {
+      "eline": 25,
+      "epos": 17,
+      "spos": 3,
+      "sline": 25
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

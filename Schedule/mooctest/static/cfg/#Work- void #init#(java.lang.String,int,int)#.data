@@ -1,0 +1,138 @@
+[
+  {
+    "codes": "\t                ",
+    "blocks": []
+  },
+  {
+    "codes": "\tprivate int beginTime; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t             ",
+    "blocks": []
+  },
+  {
+    "codes": "\tprivate int endTime; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t                  ",
+    "blocks": []
+  },
+  {
+    "codes": "\tprivate boolean in=false; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t    ",
+    "blocks": []
+  },
+  {
+    "codes": "             ",
+    "blocks": []
+  },
+  {
+    "codes": "     ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic void setIn(){ ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tthis.in=true; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t    ",
+    "blocks": []
+  },
+  {
+    "codes": "                     ",
+    "blocks": []
+  },
+  {
+    "codes": "            ",
+    "blocks": []
+  },
+  {
+    "codes": "     ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic boolean isIn(){ ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn this.in; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t    ",
+    "blocks": []
+  },
+  {
+    "codes": "                ",
+    "blocks": []
+  },
+  {
+    "codes": "                ",
+    "blocks": []
+  },
+  {
+    "codes": "              ",
+    "blocks": []
+  },
+  {
+    "codes": "              ",
+    "blocks": []
+  },
+  {
+    "codes": "     ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic Work(String name,int t1,int t2){ ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tthis.name=name; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tthis.arrivalTime=t1; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t\tthis.serviceTime=t2; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t    ",
+    "blocks": []
+  },
+  {
+    "codes": "                 ",
+    "blocks": []
+  },
+  {
+    "codes": "             ",
+    "blocks": []
+  },
+  {
+    "codes": "     ",
+    "blocks": []
+  }
+]

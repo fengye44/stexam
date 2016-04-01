@@ -1,0 +1,18 @@
+{"0": {
+  "instructions": [
+    {"temp$0 = this.<Work: int serviceTime>": {
+      "eline": 103,
+      "epos": 13,
+      "spos": 10,
+      "sline": 103
+    }},
+    {"return temp$0": {
+      "eline": 103,
+      "epos": 26,
+      "spos": 3,
+      "sline": 103
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

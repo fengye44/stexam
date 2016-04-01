@@ -1,0 +1,38 @@
+{"0": {
+  "instructions": [
+    {"specialinvoke this.<java.lang.Object: void <init>()>()": {}},
+    {"temp$0 = 0": {}},
+    {"this.<Work: boolean in> = temp$0": {
+      "eline": 13,
+      "epos": 26,
+      "spos": 2,
+      "sline": 13
+    }},
+    {"this.<Work: java.lang.String name> = name": {
+      "eline": 34,
+      "epos": 11,
+      "spos": 8,
+      "sline": 34
+    }},
+    {"this.<Work: int arrivalTime> = t1": {
+      "eline": 35,
+      "epos": 18,
+      "spos": 8,
+      "sline": 35
+    }},
+    {"this.<Work: int serviceTime> = t2": {
+      "eline": 36,
+      "epos": 18,
+      "spos": 8,
+      "sline": 36
+    }},
+    {"return": {
+      "eline": 36,
+      "epos": 18,
+      "spos": 8,
+      "sline": 36
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

@@ -1,0 +1,128 @@
+[
+  {
+    "codes": "     ",
+    "blocks": []
+  },
+  {
+    "codes": "               ",
+    "blocks": []
+  },
+  {
+    "codes": "                ",
+    "blocks": []
+  },
+  {
+    "codes": "     ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic static List<Work> sortByServiceTime(List<Work> ins) { ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tfor (int i = 0; i < ins.size(); i++) { ",
+    "blocks": [
+      0,
+      1,
+      2,
+      10
+    ]
+  },
+  {
+    "codes": "\t\t\tfor (int j = i + 1; j < ins.size(); j++) { ",
+    "blocks": [
+      3,
+      4,
+      5,
+      9,
+      10
+    ]
+  },
+  {
+    "codes": "\t\t\t\tWork aw = ins.get(i); ",
+    "blocks": [
+      6,
+      9,
+      10
+    ]
+  },
+  {
+    "codes": "\t\t\t\tint a = aw.getServiceTime(); ",
+    "blocks": [
+      6,
+      9,
+      10
+    ]
+  },
+  {
+    "codes": "\t\t\t\tWork bw = ins.get(j); ",
+    "blocks": [
+      6,
+      9,
+      10
+    ]
+  },
+  {
+    "codes": "\t\t\t\tint b = bw.getServiceTime(); ",
+    "blocks": [
+      6,
+      9,
+      10
+    ]
+  },
+  {
+    "codes": "\t\t\t\tif (a > b) { ",
+    "blocks": [
+      6,
+      7,
+      9,
+      10
+    ]
+  },
+  {
+    "codes": "\t\t\t\t\tins.remove(j); ",
+    "blocks": [
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "codes": "\t\t\t\t\tins.add(i, bw); ",
+    "blocks": [
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "codes": "\t\t\t\t} ",
+    "blocks": [
+      9,
+      10
+    ]
+  },
+  {
+    "codes": "\t\t\t} ",
+    "blocks": [
+      9,
+      10
+    ]
+  },
+  {
+    "codes": "\t\t} ",
+    "blocks": [10]
+  },
+  {
+    "codes": "\t\treturn ins; ",
+    "blocks": [11]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "} ",
+    "blocks": []
+  }
+]

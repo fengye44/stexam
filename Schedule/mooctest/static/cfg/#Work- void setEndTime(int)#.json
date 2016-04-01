@@ -1,0 +1,18 @@
+{"0": {
+  "instructions": [
+    {"this.<Work: int endTime> = t": {
+      "eline": 57,
+      "epos": 14,
+      "spos": 8,
+      "sline": 57
+    }},
+    {"return": {
+      "eline": 57,
+      "epos": 14,
+      "spos": 8,
+      "sline": 57
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

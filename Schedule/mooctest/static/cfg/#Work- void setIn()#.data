@@ -1,0 +1,46 @@
+[
+  {
+    "codes": "\tprivate boolean in=false; ",
+    "blocks": []
+  },
+  {
+    "codes": "\t    ",
+    "blocks": []
+  },
+  {
+    "codes": "             ",
+    "blocks": []
+  },
+  {
+    "codes": "     ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic void setIn(){ ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tthis.in=true; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t    ",
+    "blocks": []
+  },
+  {
+    "codes": "                     ",
+    "blocks": []
+  },
+  {
+    "codes": "            ",
+    "blocks": []
+  },
+  {
+    "codes": "     ",
+    "blocks": []
+  }
+]

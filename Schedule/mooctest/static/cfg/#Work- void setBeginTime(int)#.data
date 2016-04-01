@@ -1,0 +1,46 @@
+[
+  {
+    "codes": "\t    ",
+    "blocks": []
+  },
+  {
+    "codes": "                 ",
+    "blocks": []
+  },
+  {
+    "codes": "             ",
+    "blocks": []
+  },
+  {
+    "codes": "     ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic void setBeginTime(int t){ ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\tthis.beginTime=t; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t    ",
+    "blocks": []
+  },
+  {
+    "codes": "              ",
+    "blocks": []
+  },
+  {
+    "codes": "            ",
+    "blocks": []
+  },
+  {
+    "codes": "     ",
+    "blocks": []
+  }
+]

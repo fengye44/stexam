@@ -1,0 +1,730 @@
+{
+  "19": {
+    "instructions": [
+      {"temp$28 = interfaceinvoke works.<java.util.List: int size()>()": {
+        "eline": 70,
+        "epos": 34,
+        "spos": 19,
+        "sline": 70
+      }},
+      {"if m < temp$28 goto block_21 #5": {
+        "eline": 70,
+        "epos": 34,
+        "ifpos": "(69, 16)-(69, 34)",
+        "spos": 19,
+        "sline": 70
+      }}
+    ],
+    "preds": [
+      18,
+      21
+    ],
+    "succs": [
+      20,
+      21
+    ]
+  },
+  "22": {
+    "instructions": [
+      {"temp$42 = interfaceinvoke works.<java.util.List: int size()>()": {
+        "eline": 74,
+        "epos": 47,
+        "spos": 3,
+        "sline": 74
+      }},
+      {"temp$43 = (double) temp$42": {
+        "eline": 74,
+        "epos": 47,
+        "spos": 3,
+        "sline": 74
+      }},
+      {"temp$44 = avgCircleTime / temp$43": {
+        "eline": 74,
+        "epos": 47,
+        "spos": 3,
+        "sline": 74
+      }},
+      {"avgCircleTime = temp$44": {
+        "eline": 74,
+        "epos": 15,
+        "spos": 3,
+        "sline": 74
+      }},
+      {"temp$45 = interfaceinvoke works.<java.util.List: int size()>()": {
+        "eline": 75,
+        "epos": 51,
+        "spos": 3,
+        "sline": 75
+      }},
+      {"temp$46 = (double) temp$45": {
+        "eline": 75,
+        "epos": 51,
+        "spos": 3,
+        "sline": 75
+      }},
+      {"temp$47 = avgCircleTimeWP / temp$46": {
+        "eline": 75,
+        "epos": 51,
+        "spos": 3,
+        "sline": 75
+      }},
+      {"avgCircleTimeWP = temp$47": {
+        "eline": 75,
+        "epos": 17,
+        "spos": 3,
+        "sline": 75
+      }},
+      {"temp$48 = staticinvoke <java.lang.Double: java.lang.Double valueOf(double)>(avgCircleTime)": {
+        "eline": 76,
+        "epos": 25,
+        "spos": 3,
+        "sline": 76
+      }},
+      {"interfaceinvoke lst.<java.util.List: boolean add(java.lang.Object)>(temp$48)": {
+        "eline": 76,
+        "epos": 25,
+        "spos": 3,
+        "sline": 76
+      }},
+      {"temp$50 = staticinvoke <java.lang.Double: java.lang.Double valueOf(double)>(avgCircleTimeWP)": {
+        "eline": 77,
+        "epos": 27,
+        "spos": 3,
+        "sline": 77
+      }},
+      {"interfaceinvoke lst.<java.util.List: boolean add(java.lang.Object)>(temp$50)": {
+        "eline": 77,
+        "epos": 27,
+        "spos": 3,
+        "sline": 77
+      }},
+      {"return lst": {
+        "eline": 78,
+        "epos": 13,
+        "spos": 3,
+        "sline": 78
+      }}
+    ],
+    "preds": [20],
+    "succs": []
+  },
+  "17": {
+    "instructions": [{"goto block_1": {
+      "eline": 69,
+      "epos": 3,
+      "spos": 3,
+      "sline": 46
+    }}],
+    "preds": [
+      15,
+      16
+    ],
+    "succs": [1]
+  },
+  "18": {
+    "instructions": [{"m = 0": {
+      "eline": 70,
+      "epos": 16,
+      "spos": 8,
+      "sline": 70
+    }}],
+    "preds": [2],
+    "succs": [19]
+  },
+  "15": {
+    "instructions": [
+      {"temp$16 = i": {
+        "eline": 56,
+        "epos": 8,
+        "spos": 5,
+        "sline": 56
+      }},
+      {"temp$17 = temp$16 + 1": {
+        "eline": 56,
+        "epos": 5,
+        "spos": 5,
+        "sline": 56
+      }},
+      {"i = temp$17": {
+        "eline": 56,
+        "epos": 5,
+        "spos": 5,
+        "sline": 56
+      }},
+      {"goto block_17": {
+        "eline": 67,
+        "epos": 4,
+        "spos": 4,
+        "sline": 55
+      }}
+    ],
+    "preds": [14],
+    "succs": [17]
+  },
+  "16": {
+    "instructions": [
+      {"temp$18 = staticinvoke <Schedule: java.util.List sortByServiceTime(java.util.List)>(ins)": {
+        "eline": 58,
+        "epos": 33,
+        "spos": 5,
+        "sline": 58
+      }},
+      {"ins = temp$18": {
+        "eline": 58,
+        "epos": 7,
+        "spos": 5,
+        "sline": 58
+      }},
+      {"temp$19 = interfaceinvoke ins.<java.util.List: java.lang.Object get(int)>(0)": {
+        "eline": 60,
+        "epos": 26,
+        "spos": 5,
+        "sline": 60
+      }},
+      {"temp$20 = (Work) temp$19": {
+        "eline": 60,
+        "epos": 26,
+        "spos": 5,
+        "sline": 60
+      }},
+      {"now = temp$20": {
+        "eline": 60,
+        "epos": 26,
+        "spos": 5,
+        "sline": 60
+      }},
+      {"virtualinvoke now.<Work: void setBeginTime(int)>(i)": {
+        "eline": 61,
+        "epos": 24,
+        "spos": 5,
+        "sline": 61
+      }},
+      {"temp$21 = virtualinvoke now.<Work: int getBeginTime()>()": {
+        "eline": 62,
+        "epos": 62,
+        "spos": 5,
+        "sline": 62
+      }},
+      {"temp$22 = temp$21": {
+        "eline": 62,
+        "epos": 62,
+        "spos": 5,
+        "sline": 62
+      }},
+      {"temp$23 = virtualinvoke now.<Work: int getServiceTime()>()": {
+        "eline": 62,
+        "epos": 62,
+        "spos": 5,
+        "sline": 62
+      }},
+      {"temp$24 = temp$22 + temp$23": {
+        "eline": 62,
+        "epos": 62,
+        "spos": 5,
+        "sline": 62
+      }},
+      {"virtualinvoke now.<Work: void setEndTime(int)>(temp$24)": {
+        "eline": 62,
+        "epos": 62,
+        "spos": 5,
+        "sline": 62
+      }},
+      {"virtualinvoke now.<Work: void setIn()>()": {
+        "eline": 63,
+        "epos": 16,
+        "spos": 5,
+        "sline": 63
+      }},
+      {"temp$25 = counter": {
+        "eline": 64,
+        "epos": 14,
+        "spos": 5,
+        "sline": 64
+      }},
+      {"temp$26 = temp$25 + 1": {
+        "eline": 64,
+        "epos": 11,
+        "spos": 5,
+        "sline": 64
+      }},
+      {"counter = temp$26": {
+        "eline": 64,
+        "epos": 11,
+        "spos": 5,
+        "sline": 64
+      }},
+      {"temp$27 = virtualinvoke now.<Work: int getEndTime()>()": {
+        "eline": 65,
+        "epos": 25,
+        "spos": 5,
+        "sline": 65
+      }},
+      {"i = temp$27": {
+        "eline": 65,
+        "epos": 5,
+        "spos": 5,
+        "sline": 65
+      }},
+      {"interfaceinvoke ins.<java.util.List: void clear()>()": {
+        "eline": 66,
+        "epos": 16,
+        "spos": 5,
+        "sline": 66
+      }}
+    ],
+    "preds": [13],
+    "succs": [17]
+  },
+  "13": {
+    "instructions": [
+      {"temp$15 = interfaceinvoke ins.<java.util.List: boolean isEmpty()>()": {
+        "eline": 55,
+        "epos": 20,
+        "spos": 12,
+        "sline": 55
+      }},
+      {"if temp$15 == 0 goto block_16 #4": {
+        "eline": 55,
+        "epos": 20,
+        "ifpos": "(54, 3)-(54, 20)",
+        "spos": 12,
+        "sline": 55
+      }}
+    ],
+    "preds": [5],
+    "succs": [
+      14,
+      16
+    ]
+  },
+  "14": {
+    "instructions": [{"goto block_15": {
+      "eline": 55,
+      "epos": 20,
+      "spos": 12,
+      "sline": 55
+    }}],
+    "preds": [13],
+    "succs": [15]
+  },
+  "11": {
+    "instructions": [
+      {"temp$10 = interfaceinvoke works.<java.util.List: java.lang.Object get(int)>(j)": {
+        "eline": 52,
+        "epos": 27,
+        "spos": 6,
+        "sline": 52
+      }},
+      {"temp$11 = (Work) temp$10": {
+        "eline": 52,
+        "epos": 27,
+        "spos": 6,
+        "sline": 52
+      }},
+      {"interfaceinvoke ins.<java.util.List: boolean add(java.lang.Object)>(temp$11)": {
+        "eline": 52,
+        "epos": 27,
+        "spos": 6,
+        "sline": 52
+      }}
+    ],
+    "preds": [9],
+    "succs": [12]
+  },
+  "12": {
+    "instructions": [
+      {"temp$13 = j": {
+        "eline": 48,
+        "epos": 40,
+        "spos": 38,
+        "sline": 48
+      }},
+      {"temp$14 = temp$13 + 1": {
+        "eline": 48,
+        "epos": 38,
+        "spos": 38,
+        "sline": 48
+      }},
+      {"j = temp$14": {
+        "eline": 48,
+        "epos": 38,
+        "spos": 38,
+        "sline": 48
+      }},
+      {"goto block_4": {
+        "eline": 54,
+        "epos": 4,
+        "spos": 4,
+        "sline": 48
+      }}
+    ],
+    "preds": [
+      8,
+      10,
+      11
+    ],
+    "succs": [4]
+  },
+  "21": {
+    "instructions": [
+      {"temp$29 = avgCircleTime": {
+        "eline": 71,
+        "epos": 49,
+        "spos": 4,
+        "sline": 71
+      }},
+      {"temp$30 = interfaceinvoke works.<java.util.List: java.lang.Object get(int)>(m)": {
+        "eline": 71,
+        "epos": 49,
+        "spos": 4,
+        "sline": 71
+      }},
+      {"temp$31 = (Work) temp$30": {
+        "eline": 71,
+        "epos": 49,
+        "spos": 4,
+        "sline": 71
+      }},
+      {"temp$32 = virtualinvoke temp$31.<Work: int getCircleTime()>()": {
+        "eline": 71,
+        "epos": 49,
+        "spos": 4,
+        "sline": 71
+      }},
+      {"temp$33 = (double) temp$32": {
+        "eline": 71,
+        "epos": 49,
+        "spos": 4,
+        "sline": 71
+      }},
+      {"temp$34 = temp$29 + temp$33": {
+        "eline": 71,
+        "epos": 49,
+        "spos": 4,
+        "sline": 71
+      }},
+      {"avgCircleTime = temp$34": {
+        "eline": 71,
+        "epos": 16,
+        "spos": 4,
+        "sline": 71
+      }},
+      {"temp$35 = avgCircleTimeWP": {
+        "eline": 72,
+        "epos": 53,
+        "spos": 4,
+        "sline": 72
+      }},
+      {"temp$36 = interfaceinvoke works.<java.util.List: java.lang.Object get(int)>(m)": {
+        "eline": 72,
+        "epos": 53,
+        "spos": 4,
+        "sline": 72
+      }},
+      {"temp$37 = (Work) temp$36": {
+        "eline": 72,
+        "epos": 53,
+        "spos": 4,
+        "sline": 72
+      }},
+      {"temp$38 = virtualinvoke temp$37.<Work: double getCircleWPTime()>()": {
+        "eline": 72,
+        "epos": 53,
+        "spos": 4,
+        "sline": 72
+      }},
+      {"temp$39 = temp$35 + temp$38": {
+        "eline": 72,
+        "epos": 53,
+        "spos": 4,
+        "sline": 72
+      }},
+      {"avgCircleTimeWP = temp$39": {
+        "eline": 72,
+        "epos": 18,
+        "spos": 4,
+        "sline": 72
+      }},
+      {"temp$40 = m": {
+        "eline": 70,
+        "epos": 39,
+        "spos": 37,
+        "sline": 70
+      }},
+      {"temp$41 = temp$40 + 1": {
+        "eline": 70,
+        "epos": 37,
+        "spos": 37,
+        "sline": 70
+      }},
+      {"m = temp$41": {
+        "eline": 70,
+        "epos": 37,
+        "spos": 37,
+        "sline": 70
+      }},
+      {"goto block_19": {
+        "eline": 73,
+        "epos": 3,
+        "spos": 3,
+        "sline": 70
+      }}
+    ],
+    "preds": [19],
+    "succs": [19]
+  },
+  "3": {
+    "instructions": [{"j = 0": {
+      "eline": 48,
+      "epos": 17,
+      "spos": 9,
+      "sline": 48
+    }}],
+    "preds": [1],
+    "succs": [4]
+  },
+  "20": {
+    "instructions": [{"goto block_22": {
+      "eline": 70,
+      "epos": 34,
+      "spos": 19,
+      "sline": 70
+    }}],
+    "preds": [19],
+    "succs": [22]
+  },
+  "2": {
+    "instructions": [{"goto block_18": {
+      "eline": 46,
+      "epos": 31,
+      "spos": 10,
+      "sline": 46
+    }}],
+    "preds": [1],
+    "succs": [18]
+  },
+  "1": {
+    "instructions": [
+      {"temp$2 = interfaceinvoke works.<java.util.List: int size()>()": {
+        "eline": 46,
+        "epos": 31,
+        "spos": 10,
+        "sline": 46
+      }},
+      {"if counter < temp$2 goto block_3 #0": {
+        "eline": 46,
+        "epos": 31,
+        "ifpos": "(45, 2)-(45, 31)",
+        "spos": 10,
+        "sline": 46
+      }}
+    ],
+    "preds": [
+      0,
+      17
+    ],
+    "succs": [
+      2,
+      3
+    ]
+  },
+  "10": {
+    "instructions": [{"goto block_12": {
+      "eline": 51,
+      "epos": 42,
+      "spos": 9,
+      "sline": 51
+    }}],
+    "preds": [9],
+    "succs": [12]
+  },
+  "0": {
+    "instructions": [
+      {"temp$0 = new java.util.ArrayList": {
+        "eline": 39,
+        "epos": 45,
+        "spos": 3,
+        "sline": 39
+      }},
+      {"specialinvoke temp$0.<java.util.ArrayList: void <init>()>()": {
+        "eline": 39,
+        "epos": 44,
+        "spos": 22,
+        "sline": 39
+      }},
+      {"lst = temp$0": {
+        "eline": 39,
+        "epos": 44,
+        "spos": 22,
+        "sline": 39
+      }},
+      {"avgCircleTime = 0.0": {
+        "eline": 40,
+        "epos": 27,
+        "spos": 3,
+        "sline": 40
+      }},
+      {"avgCircleTimeWP = 0.0": {
+        "eline": 41,
+        "epos": 29,
+        "spos": 3,
+        "sline": 41
+      }},
+      {"temp$1 = new java.util.ArrayList": {
+        "eline": 42,
+        "epos": 41,
+        "spos": 3,
+        "sline": 42
+      }},
+      {"specialinvoke temp$1.<java.util.ArrayList: void <init>()>()": {
+        "eline": 42,
+        "epos": 40,
+        "spos": 20,
+        "sline": 42
+      }},
+      {"ins = temp$1": {
+        "eline": 42,
+        "epos": 40,
+        "spos": 20,
+        "sline": 42
+      }},
+      {"i = 0": {
+        "eline": 43,
+        "epos": 12,
+        "spos": 3,
+        "sline": 43
+      }},
+      {"counter = 0": {
+        "eline": 44,
+        "epos": 18,
+        "spos": 3,
+        "sline": 44
+      }}
+    ],
+    "preds": [],
+    "succs": [1]
+  },
+  "7": {
+    "instructions": [{"goto block_8": {
+      "eline": 49,
+      "epos": 27,
+      "spos": 22,
+      "sline": 49
+    }}],
+    "preds": [6],
+    "succs": [8]
+  },
+  "6": {
+    "instructions": [
+      {"temp$4 = interfaceinvoke works.<java.util.List: java.lang.Object get(int)>(j)": {
+        "eline": 49,
+        "epos": 27,
+        "spos": 22,
+        "sline": 49
+      }},
+      {"temp$5 = (Work) temp$4": {
+        "eline": 49,
+        "epos": 27,
+        "spos": 22,
+        "sline": 49
+      }},
+      {"temp$6 = virtualinvoke temp$5.<Work: boolean isIn()>()": {
+        "eline": 49,
+        "epos": 27,
+        "spos": 22,
+        "sline": 49
+      }},
+      {"if temp$6 == 0 goto block_9 #2": {
+        "eline": 49,
+        "epos": 27,
+        "ifpos": "(48, 4)-(48, 27)",
+        "spos": 22,
+        "sline": 49
+      }}
+    ],
+    "preds": [4],
+    "succs": [
+      7,
+      9
+    ]
+  },
+  "5": {
+    "instructions": [{"goto block_13": {
+      "eline": 48,
+      "epos": 35,
+      "spos": 20,
+      "sline": 48
+    }}],
+    "preds": [4],
+    "succs": [13]
+  },
+  "4": {
+    "instructions": [
+      {"temp$3 = interfaceinvoke works.<java.util.List: int size()>()": {
+        "eline": 48,
+        "epos": 35,
+        "spos": 20,
+        "sline": 48
+      }},
+      {"if j < temp$3 goto block_6 #1": {
+        "eline": 48,
+        "epos": 35,
+        "ifpos": "(47, 17)-(47, 35)",
+        "spos": 20,
+        "sline": 48
+      }}
+    ],
+    "preds": [
+      3,
+      12
+    ],
+    "succs": [
+      5,
+      6
+    ]
+  },
+  "9": {
+    "instructions": [
+      {"temp$7 = interfaceinvoke works.<java.util.List: java.lang.Object get(int)>(j)": {
+        "eline": 51,
+        "epos": 42,
+        "spos": 9,
+        "sline": 51
+      }},
+      {"temp$8 = (Work) temp$7": {
+        "eline": 51,
+        "epos": 42,
+        "spos": 9,
+        "sline": 51
+      }},
+      {"temp$9 = virtualinvoke temp$8.<Work: int getArrivalTime()>()": {
+        "eline": 51,
+        "epos": 42,
+        "spos": 9,
+        "sline": 51
+      }},
+      {"if temp$9 <= i goto block_11 #3": {
+        "eline": 51,
+        "epos": 42,
+        "ifpos": "(50, 4)-(50, 42)",
+        "spos": 9,
+        "sline": 51
+      }}
+    ],
+    "preds": [6],
+    "succs": [
+      10,
+      11
+    ]
+  },
+  "8": {
+    "instructions": [{"goto block_12": {
+      "eline": 50,
+      "epos": 14,
+      "spos": 6,
+      "sline": 50
+    }}],
+    "preds": [7],
+    "succs": [12]
+  }
+}

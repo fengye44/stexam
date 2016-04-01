@@ -1,0 +1,46 @@
+[
+  {
+    "codes": "\t    ",
+    "blocks": []
+  },
+  {
+    "codes": "              ",
+    "blocks": []
+  },
+  {
+    "codes": "            ",
+    "blocks": []
+  },
+  {
+    "codes": "     ",
+    "blocks": []
+  },
+  {
+    "codes": "\tpublic int getBeginTime(){ ",
+    "blocks": []
+  },
+  {
+    "codes": "\t\treturn this.beginTime; ",
+    "blocks": [0]
+  },
+  {
+    "codes": "\t} ",
+    "blocks": []
+  },
+  {
+    "codes": "\t    ",
+    "blocks": []
+  },
+  {
+    "codes": "               ",
+    "blocks": []
+  },
+  {
+    "codes": "             ",
+    "blocks": []
+  },
+  {
+    "codes": "     ",
+    "blocks": []
+  }
+]

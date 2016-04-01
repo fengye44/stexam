@@ -1,0 +1,19 @@
+{"0": {
+  "instructions": [
+    {"temp$0 = 0": {
+      "reliable": false,
+      "eline": 90,
+      "epos": 2,
+      "spos": 2,
+      "sline": 86
+    }},
+    {"return temp$0": {
+      "eline": 89,
+      "epos": 11,
+      "spos": 3,
+      "sline": 89
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}

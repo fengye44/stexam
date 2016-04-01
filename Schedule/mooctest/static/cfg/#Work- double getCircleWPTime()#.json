@@ -1,0 +1,42 @@
+{"0": {
+  "instructions": [
+    {"temp$0 = virtualinvoke this.<Work: int getCircleTime()>()": {
+      "eline": 80,
+      "epos": 33,
+      "spos": 19,
+      "sline": 80
+    }},
+    {"temp$1 = this.<Work: int serviceTime>": {
+      "eline": 80,
+      "epos": 39,
+      "spos": 36,
+      "sline": 80
+    }},
+    {"temp$2 = (double) temp$0": {
+      "eline": 80,
+      "epos": 39,
+      "spos": 36,
+      "sline": 80
+    }},
+    {"temp$3 = (double) temp$1": {
+      "eline": 80,
+      "epos": 39,
+      "spos": 36,
+      "sline": 80
+    }},
+    {"temp$4 = temp$2 / temp$3": {
+      "eline": 80,
+      "epos": 39,
+      "spos": 36,
+      "sline": 80
+    }},
+    {"return temp$4": {
+      "eline": 80,
+      "epos": 52,
+      "spos": 3,
+      "sline": 80
+    }}
+  ],
+  "preds": [],
+  "succs": []
+}}
